@@ -4,8 +4,9 @@
 ```
 npm install
 ```
-Download the modals and weights from here: https://github.com/justadudewhohacks/face-api.js/tree/master/weights
-And then place them inside Public/data/weights
+### Download ML weights
+1. Download the modals and weights from here: https://github.com/justadudewhohacks/face-api.js/tree/master/weights
+2. then place them inside `/public/data/weights`
 
 ### Compiles and hot-reloads for development
 ```
@@ -21,6 +22,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
