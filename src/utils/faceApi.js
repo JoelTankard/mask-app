@@ -35,8 +35,6 @@ class FaceApi {
         this.height = 640;
         this.width = 480;
 
-        this.debugCanvas = null;
-
         this.updateMemory = null;
 
         this.coords = {
@@ -88,10 +86,6 @@ class FaceApi {
         this.canvas = document.getElementById('canvas');
         this.canvas.width = this.width;
         this.canvas.height = this.height;
-
-        this.debugCanvas = document.getElementById('debugCanvas');
-        this.debugCanvas.width = this.width;
-        this.debugCanvas.height = this.height;
 
         this.canvasContext = this.canvas.getContext('2d');
 

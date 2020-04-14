@@ -4,6 +4,8 @@
 ```
 npm install
 ```
+Download the modals and weights from here: https://github.com/justadudewhohacks/face-api.js/tree/master/weights
+And then place them inside Public/data/weights
 
 ### Compiles and hot-reloads for development
 ```
